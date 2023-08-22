@@ -1,0 +1,3 @@
+n=int(input("enter the first no:"))
+m=int (input ("enter the second no:"))
+print("addition=",n+m)
