@@ -1,0 +1,4 @@
+text = "Welcome to python programming" print("Welcome" in text)
+print("welcome" in text)
+print("Python" in text)
+print("Pravin" not in text)
