@@ -1,0 +1,5 @@
+import pandas as pd
+details = [["Ranjan", 11], ["Sagar", 12], ["Daniel", 13], ["Prasad", 
+14], ["Kumari", 15], ["Pravallika", 16], ["Arjun", 17], ["Akshay", 18]]
+df = pd.DataFrame(details)
+print(df)
