@@ -1,0 +1,4 @@
+import matplotlib.pyplot as plt
+x= ("aditya","abhi","atul","akshay")
+y= (1,2,3,4)
+plt.bar(x,y,color="red")
