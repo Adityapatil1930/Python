@@ -1,0 +1,5 @@
+student_name= ["aditya","pavan","siddhesh","pankaj"] 
+marks= [10,20,30,40]
+plt.pie(marks,labels=student_name,shadow=True,autopct='%1.1f%%',explode = (0.0, 0.0, 0.1, 0.1))
+plt.legend()
+plt.show()
