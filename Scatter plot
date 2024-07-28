@@ -1,0 +1,11 @@
+from pickle import TRUE
+import matplotlib.pyplot as plt
+x= ("aditya","abhi","atul","akshay")
+y= (55,3,22,11)
+title="first graph"
+plt.title(title)
+plt.xlabel("name")
+plt.ylabel("marks")
+plt.grid(True,color="YELLOW")
+plt.scatter(x,y,color="red",marker="*")
+plt.show()
