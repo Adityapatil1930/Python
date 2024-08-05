@@ -1,0 +1,6 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+x=(10,2,19,4)
+y=(45,6,70,8)
+plt.boxplot([x,y])
+plt.show()
