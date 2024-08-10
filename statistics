@@ -1,0 +1,4 @@
+import statistics
+data=(1.2,0.2,0.33,1.4,1.5)
+x=statistics.mean(data)
+print(x)
